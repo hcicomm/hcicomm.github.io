@@ -1,0 +1,8 @@
+{
+  "responseResult" : {
+    "status" : "500",
+    "messageCode" : "NOT_PUBLISHABLE_URL",
+    "message" : "이미 송고되어 있는 URL입니다.",
+    "cause" : null
+  }
+}

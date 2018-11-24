@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+  lang="ko" style="">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <script type="text/javascript">
+    var mobileKeyWords = new Array('iPhone', 'iPod', 'BlackBerry', 'Android', 'Windows CE', 'LG', 'MOT', 'SAMSUNG', 'SonyEricsson', 'Meego');
+    for (var word in mobileKeyWords) {
+      if (navigator.userAgent.match(mobileKeyWords[word]) != null) {
+        location.href = "http://hcicom.github.io/mobile";
+        break;
+      }
+    }
+  </script>
+
+  <title>PC 버전</title>
+  <!-- -->
+  <link rel="stylesheet" type="text/css" href="./files/common.css">
+  <link rel="stylesheet" type="text/css" href="./files/layout.css">
+  <link rel="stylesheet" type="text/css" href="./files/sub.css">
+  <!-- -->
+
+  <div id="wrapper">
+    <!-- // #header-wrap -->
+
+    <div id="main-cont" class="bbnone" style="padding-bottom: 66px; background: 0">
+      <div class="sub-wrap">
+        <div class="page-cont">
+          <div id="detail-area">
+
+            <div class="" style="margin-left:10px; margin-bottom:10px;">
+            </div>
+
+            <div class="top-con">
+              <div class="top clearfix">
+                <p class="tit">[월드 Zoom in] 로봇과의 성관계 과연 윤리적일까</p>
+                <!-- -->
+              </div>
+
+              <div class="bot">
+                <p class="info">
+                  <span class="date">2018-11-13</span>
+                  <font color="lightgray">|</font>
+                  <span class="id nick">서울신문</a></span>
+                </p>
+              </div>
+              <!-- -->
+            </div>
+            <div class="txt-con" id="txt-con">
+              <iframe name="iframe_content" id="if_content" src="./files/7186.html" width="750" height="1300" frameborder="0" scrolling="no" onload="resizing(this);setInterval(storify,2000);fontSize();"></iframe>
+              <script type="text/javascript">
+                function storify() {
+                  resizing(document.getElementById('if_content'));
+                }
+                var ifheight = 0;
+
+                function resizing(obj) {
+                  var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+                  var is_safari = navigator.userAgent.toLowerCase().indexOf('safari') > -1;
+                  var plusHeight = 30;
+                  // 크롬 & 사파리 이상증세 처리
+                  if (is_chrome || is_safari) {
+                    plusHeight = 0;
+                  }
+                  var inifheight = obj.contentWindow.document.body.scrollHeight + plusHeight;
+                  if (ifheight < inifheight) {
+                    obj.height = inifheight;
+                    ifheight = obj.height;
+                  }
+                }
+
+                function fontSize() {
+                  obj = document.getElementById('if_content');
+                  var defFontSize = 17;
+                  if (getCookie('ziksirFont')) {
+                    obj.contentWindow.document.body.style.fontSize = parseInt(getCookie('ziksirFont')) + 'px';
+                    defFontSize = parseInt(getCookie('ziksirFont'));
+                  }
+                  $('#fontUp').click(function() {
+                    obj.contentWindow.document.body.style.fontSize = parseInt(defFontSize + 1) + 'px';
+                    defFontSize++;
+                    setCookie('ziksirFont', defFontSize, 10000);
+                  });
+                  $('#fontDown').click(function() {
+                    obj.contentWindow.document.body.style.fontSize = parseInt(defFontSize - 1) + 'px';
+                    defFontSize--;
+                    setCookie('ziksirFont', defFontSize, 10000);
+                  });
+
+                  return false;
+                }
+              </script>
+            </div>
+
+            <!-- -->
+
+            <div class="txt-con-b">
+              <!-- -->
+            </div>
+          </div>
+          <div class="group-related">
+            <!-- 관련기사 -->
+
+            <!-- 추천기사 -->
+            <div class="article-related" id="related2">
+              <div class="related-slide clearfix">
+                <p class="tit"><img src="./files/tit_recomm_article.gif" alt="추천기사"></p>
+                <p class="btns next"><a onclick="nextRelated(&#39;related2&#39;); return false;">btn</a></p>
+                <div class="viewport">
+                  <ul class="overview clearfix">
+                    <li itemindex="1">
+                      <a>
+                        <div class="thumb-area">
+                          <span><img src="./files/7412.png" alt="이미지" width="216" height="151"></span>
+                          <div class="tit">
+                            <strong>애견샵 강아지의 엄마는 어디 있을까?</strong>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li itemindex="2">
+                      <a>
+                        <div class="thumb-area">
+                          <span><img src="./files/6841.png" alt="이미지" width="216" height="151"></span>
+                          <div class="tit">
+                            <strong>나라가 자꾸 망하는 이유</strong>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li itemindex="0">
+                      <a>
+                        <div class="thumb-area">
+                          <span><img src="./files/7425.jpg" alt="이미지" width="216" height="151"></span>
+                          <div class="tit">
+                            <strong>이토 히로부미에 끌려가 일본군이 된 ‘마지막 황태자’</strong>
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="related2_item" style="display:none;">
+              <li itemindex="0">
+                <a>
+                  <div class="thumb-area">
+                    <span><img src="./files/7425.jpg" alt="이미지" width="216" height="151"></span>
+                    <div class="tit">
+                      <strong>이토 히로부미에 끌려가 일본군이 된 ‘마지막 황태자’</strong>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li itemindex="1">
+                <a>
+                  <div class="thumb-area">
+                    <span><img src="./files/7412.png" alt="이미지" width="216" height="151"></span>
+                    <div class="tit">
+                      <strong>애견샵 강아지의 엄마는 어디 있을까?</strong>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li itemindex="2">
+                <a>
+                  <div class="thumb-area">
+                    <span><img src="./files/6841.png" alt="이미지" width="216" height="151"></span>
+                    <div class="tit">
+                      <strong>나라가 자꾸 망하는 이유</strong>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </div>
+          </div>
+          <div>
+          </div>
+
+          <!-- -->
+          <div id="comment_list">
+            <div id="reply">
+              <!-- -->
+              <div class="paging" style="font-family: Tahoma">
+              </div>
+            </div>
+          </div>
+        </div><!-- .page-cont -->
+        <!-- .page-side -->
+        <div id="page-side-m" class="page-side">
+          <!-- -->
+          <div class="news">
+            <dl id="favor_week">
+              <dt><img src="./files/tit_news.gif" alt="인기기사 top 10"></dt>
+              <dd class="thumb">
+                <div class="cont">
+                  <a>
+                    <img src="./files/7418.jpg" alt="" width="216" height="151">
+                  </a>
+                  <p class="tit">조수애 아나운서 결혼 발표에 화난 사람들</p>
+                </div>
+              </dd>
+              <dd class="thumb">
+                <div class="cont">
+                  <a>
+                    <img src="./files/7396.jpg" alt="" width="216" height="151">
+                  </a>
+                  <p class="tit">“문재인 XXX 된다” 막말 쏟아낸 극우 개신교 집회</p>
+                </div>
+              </dd>
+              <dd class="thumb">
+                <div class="cont">
+                  <a>
+                    <img src="./files/7404.png" alt="" width="216" height="151">
+                  </a>
+                  <p class="tit">수능이 만들어낸 재수학원의 신분제도</p>
+                </div>
+              </dd>
+
+              <!--  노출되는 기사 최대 수는 각 10개(Week, Month) 추가 15/03/10 -->
+              <div class="p-news">
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7421.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>가짜뉴스에 더 잘 속는 사람들의 특징</dd>
+                  </dl>
+                </a>
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7423.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>처벌 강화하자더니 국회의원·청와대 비서관은 음주운전</dd>
+                  </dl>
+                </a>
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7422.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>현충원 친일파 묘지 이장 반대하는 김진태 “이게 나라냐”</dd>
+                  </dl>
+                </a>
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7392.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>닥터헬기 “시끄럽다”는 이유로 폐쇄 위기 맞은 외상센터</dd>
+                  </dl>
+                </a>
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7390.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>“인도 난민 400만 명이 몰려온다”는 거짓말</dd>
+                  </dl>
+                </a>
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7393.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>잘못 쓴 인공조명은 우리를 병들게 한다</dd>
+                  </dl>
+                </a>
+                <a>
+                  <dl class="clearfix">
+                    <dt><img src="./files/7416.jpg" alt="이미지" width="73" height="52"></dt>
+                    <dd>삼성 분식회계 제쳐두고 폰 홍보만 해준 언론들</dd>
+                  </dl>
+                </a>
+              </div>
+            </dl>
+
+            </dl>
+
+          </div>
+
+        </div>
+        <!-- .page-side -->
+      </div><!-- .sub-wrap -->
+
+      <br>
+      <br>
+
+      <div id="footer" class="footer_absolute">
+        <div class="cont">
+          <div class="copyright">
+            <strong>원본 기사</strong> 서울신문 2018-11-13 10면<br />
+            [월드 Zoom in] 로봇과의 성관계 과연 윤리적일까<br />
+            강신 기자 xin@seoul.co.kr
+            <!--br /-->
+          </div>
+          <p class="txt-red fs11 mt10">본 웹 페이지는 연구를 위해 직썰(www.ziksir.com) 웹 페이지를 편집한 것입니다.</p>
+        </div>
+      </div>
+    </div><!-- // #wrapper -->
+
+  </div>
+
+  <!-- -->
